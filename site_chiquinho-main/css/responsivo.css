@@ -1,0 +1,26 @@
+body {
+    max-width: 1920px;
+    height:600px;
+    background: url(./banner-site-edicao-limitada.baa9995a800088e18e1b.jpg) no-repeat center center;
+    background-size: cover;
+    margin: 0;
+    z-index: 1;
+    overflow-x: hidden !important; 
+
+}
+
+/* Estilo para telas menores, por exemplo, tablets */
+@media (max-width: 1024px) {
+    body {
+        background: url(./banner-site-edicao-limitada.baa9995a800088e18e1b.jpg) no-repeat center top;
+        background-size: contain;
+    }
+}
+
+/* Estilo para telas de smartphones */
+@media (max-width: 768px) {
+    body {
+        background: url(./banner-site-edicao-limitada.baa9995a800088e18e1b.jpg) no-repeat center top;
+        background-size: 100%;
+    }
+}
